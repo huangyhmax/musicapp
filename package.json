@@ -1,0 +1,23 @@
+{
+  "name": "musicapp",
+  "version": "1.0.0",
+  "description": "使用vue2.0完成音乐app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangyhmax/musicapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huangyhmax/musicapp/issues"
+  },
+  "homepage": "https://github.com/huangyhmax/musicapp#readme",
+  "dependencies": {
+    "stylus": "^0.54.5"
+  }
+}
