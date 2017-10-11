@@ -2,10 +2,15 @@
   <div id="app">
     <Mheader></Mheader>
     <Tab></Tab>
-    <router-view></router-view>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
   </div>
 </template>
-
+<!--
+keep-alive主要用于保留组件状态或避免重新渲染。记录点3
+这里避免tab切换，然后轮播图要反复发送请求
+-->
 <script>
 import Mheader from '@/components/m-header/m-header'
 import Tab from '@/components/tab/tab'
